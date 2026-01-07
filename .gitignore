@@ -1,0 +1,16 @@
+# Ignore raw data and large outputs
+raw_data/
+raw_data/*
+references/
+cellranger_output/*/outs/
+cellranger_output/*/raw_feature_bc_matrix/
+*.fastq.gz
+*.fq.gz
+*.bam
+.ipynb_checkpoints/
+*.RData
+__pycache__/
+.DS_Store
+/.env
+venv/
+env/
